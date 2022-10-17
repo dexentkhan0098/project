@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Asupliers</h1>
+
+<div id="asupliers">
+  <% @asupliers.each do |asuplier| %>
+    <%= render asuplier %>
+    <p>
+      <%= link_to "Show this asuplier", asuplier %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New asuplier", new_asuplier_path %>

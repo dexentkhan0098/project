@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Pichanies</h1>
+
+<div id="pichanies">
+  <% @pichanies.each do |pichany| %>
+    <%= render pichany %>
+    <p>
+      <%= link_to "Show this pichany", pichany %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New pichany", new_pichany_path %>

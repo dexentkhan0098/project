@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @asuplier %>
+
+<div>
+  <%= link_to "Edit this asuplier", edit_asuplier_path(@asuplier) %> |
+  <%= link_to "Back to asupliers", asupliers_path %>
+
+  <%= button_to "Destroy this asuplier", @asuplier, method: :delete %>
+</div>

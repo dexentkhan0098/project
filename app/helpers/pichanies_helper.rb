@@ -1,0 +1,2 @@
+module PichaniesHelper
+end

@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @plar %>
+
+<div>
+  <%= link_to "Edit this plar", edit_plar_path(@plar) %> |
+  <%= link_to "Back to plars", plars_path %>
+
+  <%= button_to "Destroy this plar", @plar, method: :delete %>
+</div>

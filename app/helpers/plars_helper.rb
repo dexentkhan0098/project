@@ -1,0 +1,2 @@
+module PlarsHelper
+end

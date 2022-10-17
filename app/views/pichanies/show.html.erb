@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @pichany %>
+
+<div>
+  <%= link_to "Edit this pichany", edit_pichany_path(@pichany) %> |
+  <%= link_to "Back to pichanies", pichanies_path %>
+
+  <%= button_to "Destroy this pichany", @pichany, method: :delete %>
+</div>

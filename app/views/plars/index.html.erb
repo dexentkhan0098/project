@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Plars</h1>
+
+<div id="plars">
+  <% @plars.each do |plar| %>
+    <%= render plar %>
+    <p>
+      <%= link_to "Show this plar", plar %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New plar", new_plar_path %>
